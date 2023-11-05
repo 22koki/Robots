@@ -4,34 +4,31 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: purple;
-  padding: 20px;
-
-
 }
 
-/* Style for the main title */
+/* Style for the main title section */
+.header {
+  background-color: purple;
+  padding: 20px;
+}
+
 h1 {
   font-size: xx-large;
   font-weight: bolder;
   color: #0c0b0b;
   margin-bottom: 20px;
-
 }
 
 /* Style for the row containing components */
-.row {
+.container {
   display: grid;
   justify-content: center;
-  
   align-items: center;
   gap: 30px;
   width: 85%;
   max-width: 960px;
   margin: auto;
-
 }
-
 
 /* Style for BotCollection component */
 .bot-collection {
@@ -41,6 +38,7 @@ h1 {
   justify-content: center;
   align-items: start; /* Align items at the top of each column */
 }
+
 .bot-collection-item {
   background-color: #03010e;
   padding: 20px;
@@ -52,7 +50,6 @@ h1 {
   flex-direction: column; /* Stack bot image and details vertically */
   align-items: center; /* Center items horizontally within each column */
 }
-
 
 /* Style for YourBotArmy component */
 .your-bot-army {
