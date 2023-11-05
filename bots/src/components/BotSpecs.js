@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./BotSpecs.css";
 function BotSpecs({ bot, onEnlist }) {
   const handleEnlist = () => {
     onEnlist(bot);

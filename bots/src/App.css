@@ -4,12 +4,15 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  background-color: aqua;
+
 }
 
 /* Style for the main title section */
 .header {
   background-color: purple;
   padding: 20px;
+
 }
 
 h1 {
@@ -54,7 +57,9 @@ h1 {
 /* Style for YourBotArmy component */
 .your-bot-army {
   text-align: left;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equally spaced columns */
+  gap: 20px; /* Adjust the gap between columns as needed */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
@@ -72,4 +77,5 @@ button {
 
 button:hover {
   background-color: #0056b3;
+
 }

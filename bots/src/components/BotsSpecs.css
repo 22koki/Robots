@@ -1,0 +1,50 @@
+/* BotSpecs.css */
+
+/* Style for the bot-specs container */
+.bot-specs {
+    background-color: #ffffff;
+    border: 1px solid #e27c08;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the bot name */
+  .bot-specs h2 {
+    font-size: xx-large;
+    color: #4b08e7;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Style for the bot image */
+  .bot-specs img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for bot information */
+  .bot-specs p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the Enlist button */
+  .bot-specs button {
+    background-color: #070011;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+  
+  .bot-specs button:hover {
+    background-color: #0056b3;
+  }
+  
