@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./BotCollection.css"; // Import the CSS file
 function BotCollection({ bots, onEnlist }) {
   return (
     <div>

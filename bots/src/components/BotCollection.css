@@ -1,0 +1,63 @@
+/* BotCollection.css */
+
+/* Style for the Bot Collection container */
+.bot-collection {
+    text-align: right;
+  }
+  
+  /* Style for the Bot Collection title */
+  .bot-collection h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #09d809;
+    margin-bottom: 25px;
+  }
+  
+  /* Style for the bot card container */
+  .bot-card {
+    background-color: #e91698;
+    padding: 20px;
+    border: 1px solid #e27c08;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the bot name */
+  .bot-card h3 {
+    font-size: 20px;
+    color: #0b20db;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the bot image */
+  .bot-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for bot information */
+  .bot-card p {
+    font-size: 16px;
+    color: #3e12ce;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the "Add to Army" button */
+  .bot-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+  
+  .bot-card button:hover {
+    background-color: #0056b3;
+  }
+  
