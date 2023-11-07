@@ -3,6 +3,13 @@
 /* Style for the Bot Collection container */
 .bot-collection {
     text-align: right;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #069742;
   }
   
   /* Style for the Bot Collection title */
@@ -35,8 +42,8 @@
   .bot-card img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
   }
   
   /* Style for bot information */
@@ -48,7 +55,7 @@
   
   /* Style for the "Add to Army" button */
   .bot-card button {
-    background-color: #007bff;
+    background-color: #5a0cc0;
     color: #fff;
     border: none;
     padding: 5px 10px;
